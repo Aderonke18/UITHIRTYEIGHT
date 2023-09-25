@@ -1,7 +1,8 @@
-body{
+.Toget{
+    max-width: 80%;
     margin: auto;
-    padding: auto;
 }
+
 
 .Feel{
     display: block;
@@ -97,9 +98,14 @@ body{
 
 @media screen and (min-width:768px) {
 
+.Toget{
+    max-width: 80%;
+    margin: auto;
+}
+
     .Feel{
         display: flex;
-        max-width: 90%;
+        max-width: 70%;
         justify-content: space-between;
     }
 
