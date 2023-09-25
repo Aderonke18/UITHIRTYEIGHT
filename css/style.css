@@ -1,0 +1,151 @@
+body{
+    margin: auto;
+    padding: auto;
+}
+
+.Feel{
+    display: block;
+    max-width: 90%;
+    justify-content: space-between;
+}
+
+.Green{
+    background-color: #f2f2f2;
+    max-width: 80%;
+    padding: 10px 20px;
+
+}
+
+.Better{
+    font-size:35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.All{
+    display: flex;
+   gap: 30px;
+}
+
+.Num1{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Num2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Num3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Plant{
+    background-color: #467425;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid;
+    align-items: center;
+}
+
+.Pic{
+    max-width: 80%;
+}
+
+.Images{
+    position: relative;
+}
+
+.Pic2{
+    position: absolute;
+    max-width: 90px;
+    right:50px;
+    top:1.2px;
+}
+
+.Plant3{
+    display: flex;
+    padding: 10px 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+
+.Plant2{
+    display: flex;
+    padding: 10px 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+
+.Plant1{
+    display: flex;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.Plants{
+    display: block;
+    padding: 10px 20px;
+    justify-content: space-between;
+}
+
+@media screen and (min-width:768px) {
+
+    .Feel{
+        display: flex;
+        max-width: 90%;
+        justify-content: space-between;
+    }
+
+    .Plants{
+        display: flex;
+        padding: 10px 20px;
+        justify-content: space-between;
+    }
+
+    .Pic2{
+        position: absolute;
+        max-width: 90px;
+        right: 150px;
+        top:1.5px;
+    }
+    
+}
+
+@media screen and (min-width:1200px) {
+  
+
+    .Feel{
+        display: flex;
+        max-width: 90%;
+        justify-content: space-between;
+    }
+
+    .Plants{
+        display: flex;
+        padding: 10px 20px;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width:1600px) {
+
+
+    .Feel{
+        display: flex;
+        max-width: 90%;
+        justify-content: space-between;
+    }
+
+    .Plants{
+        display: flex;
+        padding: 10px 20px;
+        justify-content: space-between;
+    }
+}
